@@ -1,2 +1,2 @@
 # Doors
-Interactive Web Page Game showcasin HTML5, CSS, and JavaScript interactions. 
+Interactive Web Page Game showcasing HTML5, CSS, and JavaScript interactions. 
