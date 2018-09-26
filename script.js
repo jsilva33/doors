@@ -2,10 +2,11 @@ let door1 = document.getElementById('door1');
 let door2 = document.getElementById('door2');
 let door3 = document.getElementById('door3');
 let startButton = document.getElementById('start');
-let botDoorPath = "images/robot.svg";
+let test = document.getElementById('test');
+let botDoorPath = "https://svgshare.com/i/8Vh.svg";
 let beachDoorPath = "images/beach.svg";
 let spaceDoorPath = "images/space.svg";
-let closedDoorPath = "images/closed_door.svg"
+let closedDoorPath = "https://svgshare.com/i/8Si.svg";
 let numClosedDoors = 3;
 let openDoor1;
 let openDoor2;
@@ -61,7 +62,7 @@ const playDoor = (door) => {
 //   }
 // }
 
-//Switch Version (6 possible combinations)
+//Switch Statement Version (6 possible combinations)
 const randomChoreDoorGenerator = () => {
   choreDoor = Math.floor(Math.random() * 6);
   switch (choreDoor) {
